@@ -17,10 +17,6 @@
   flex-direction: row;
 }
 
-.main {
-  justify-content: space-evenly;
-}
-
 .recentScr {
   margin: 15px;
   width: 35%;
@@ -54,7 +50,7 @@
 }
 
 input {
-  margin: 15px 2px
+  margin: 15px 2px;
 }
 
 .buttonSubmit {
@@ -66,9 +62,10 @@ input {
   background-repeat: no-repeat;
   background-size: 236px;
   background-position: bottom right 487px;
+  justify-content: space-evenly;
 }
 
 .scroll {
-overflow: scroll;
-height: 450px;
+  overflow: scroll;
+  height: 450px;
 }
