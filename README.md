@@ -11,7 +11,6 @@
 [Demo version](https://xjokeer.github.io/Leaderboard/)
 
 
-
 ## Functionality  
 - Add a nick and a score to the list
 
