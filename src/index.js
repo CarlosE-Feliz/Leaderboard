@@ -41,7 +41,8 @@ const sendData = async () => {
   const inputName = document.querySelector('#name');
   const inputScore = document.querySelector('#score');
   console.log('hi im outside the event');
-  sendScore.addEventListener('click', () => {
+  sendScore.addEventListener('click', (e) => {
+    e.preventDefault();
     posData(inputName.value, inputScore.value);
   });
 };
