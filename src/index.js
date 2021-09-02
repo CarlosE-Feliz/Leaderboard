@@ -38,12 +38,14 @@ const posData = async (user, score) => {
 
 const sendData = async () => {
   const sendScore = document.querySelector('#btton');
+  const myForm = document.querySelector('#form');
   const inputName = document.querySelector('#name');
   const inputScore = document.querySelector('#score');
   console.log('hi im outside the event');
   sendScore.addEventListener('click', (e) => {
     e.preventDefault();
     posData(inputName.value, inputScore.value);
+    myForm.reset();
   });
 };
 
