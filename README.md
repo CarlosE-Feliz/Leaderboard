@@ -6,15 +6,19 @@
 ## Set up a "Leaderboard" project to implement API's
 
 
-## Live Version
+## Demo Version
 
-N/A
-
+[Demo version](https://xjokeer.github.io/Leaderboard/)
 
 
 ## Functionality  
-# --
+- Add a nick and a score to the list
 
+![image](https://user-images.githubusercontent.com/74747182/131922134-56e2edbb-3f7f-46e9-9c6b-20065f82cf3c.png)
+
+- Look at other people's nicknames and ratings.
+
+![image](https://user-images.githubusercontent.com/74747182/131922600-57512683-76cb-4606-9ede-8b2528e39499.png)
 ## Built With
 
 - HTML

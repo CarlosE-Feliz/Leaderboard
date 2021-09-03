@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leader board</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 </head>
 <body>
@@ -13,22 +14,22 @@
         </div>
         <main class="main flex flexRow">
             <div id="recentScr" class="recentScr">
-                <section class="flex flexRow">
+                <section class="flex flexRow sectionScr">
                     <h4>Recent score</h4>
-                    <button type="button" id="refresh">Refresh</button>
+                    <button type="button" class="btn btn-secondary" id="refresh">Refresh</button>
                 </section>
-                <section id="scoreSc">
-                    <ul id="listScr" class="listScr">
+                <section id="scoreSc" class="scoreSc">
+                    <ul id="listScr" class="listScr list-group list-group-flush">
                     </ul>
                 </section>
             </div>
             <div id="addScr" class="addScr">
                 <h4>Recent score</h4>
                 <section class="flex addSec">
-                    <form action="#" class=" form flex flexCol" id="form">
-                        <input type="text" id="name" placeholder="Your name">
-                        <input type="text" id="score" placeholder="Your score">
-                        <button id="btton" type="submit">Submit</button>
+                    <form action="#" class=" form flex flexCol form-group" id="form">
+                        <input type="text" id="name" class="form-control" placeholder="Your name">
+                        <input type="text" id="score" class="form-control" placeholder="Your score">
+                        <button id="btton" class="btn btn-secondary buttonSubmit" type="submit">Submit</button>
                     </form>
                 </section>
             </div>
